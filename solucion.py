@@ -9,8 +9,6 @@ def reloj_arena(m: int, s: str) -> str:
 
     # TODO: implementar la lógica para generar el reloj de arena en ASCII
 
-    if s != 1:
-        print("Error: El símbolo debe ser un único carácter" )
         
     for i in range(m, 0, -1):
         espacios = m - i
