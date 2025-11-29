@@ -5,10 +5,7 @@ def reloj_arena(m: int, s: str) -> str:
      if m <= 0:
         return "Error: La altura debe ser un entero positivo"
     
-    # Validar que el símbolo sea un único carácter
-    if not isinstance(s, str) or len(s) != 1:
-        return "Error: El símbolo debe ser un único carácter"
-
+   
 
     
     # TODO: implementar la lógica para generar el reloj de arena en ASCII
