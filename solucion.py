@@ -4,11 +4,14 @@ def reloj_arena(m: int, s: str) -> str:
     if m <= 0:
         print("Error: La altura debe ser un entero positivo" )
 
-    if s != 1:
-        print("Error: El símbolo debe ser un único carácter" )
+    
    
 
     # TODO: implementar la lógica para generar el reloj de arena en ASCII
+
+    if s != 1:
+        print("Error: El símbolo debe ser un único carácter" )
+        
     for i in range(m, 0, -1):
         espacios = m - i
         caracteres = 2 * i - 1
