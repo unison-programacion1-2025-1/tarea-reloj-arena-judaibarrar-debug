@@ -12,12 +12,12 @@ def reloj_arena(m: int, s: str) -> str:
         
     for i in range(m, 0, -1):
         espacios = m - i
-        caracteres = i 
+        caracteres = 2 * i - 1
         print(" " * espacios + s * caracteres)
 
     for i in range(2, m + 1):
         espacios = m - i
-        caracteres = i 
+        caracteres = 2 * i - 1
         print(" " * espacios + s * caracteres)
 
 
